@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toback{
+    @apply mx-auto relative flex justify-center items-center h-[55px] bg-[#9DD458] w-[245px] rounded-[18px] text-white font-semibold text-[16px]
+}
+.toback-icon{
+    @apply rotate-180 mr-[10px]
+}
+.wrapper{
+    @apply bg-wrapper py-20 min-h-screen
+}
+.body{
+    @apply max-w-[1080px] rounded-3xl bg-white mx-auto h-full flex flex-col !important
+}
+.content{
+    @apply px-[60px] py-[45px] flex-1
+}
+.title {
+    @apply font-bold text-[32px] leading-[39px]
+}
